@@ -17,7 +17,7 @@ class QRBuddy extends StatelessWidget {
         '/scan': (context) => ScanScreen(),
         '/generate': (context) => GenerateScreen(),
       },
-      theme: ThemeData.dark(),
+      theme: ThemeData.light().copyWith(scaffoldBackgroundColor: Colors.white),
     );
   }
 }
